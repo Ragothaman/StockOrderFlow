@@ -1,10 +1,7 @@
 # Testing Steps for AD-6
 
-To verify that the greeting message has been successfully updated, follow these testing steps:
-
-1. Ensure that the Spring Boot application is running.
-2. Open a web browser and navigate to the root URL of the application (e.g., http://localhost:8080).
-3. Verify that the page displays the new greeting message "hayabusa".
-4. Interact with other parts of the application, if applicable, to ensure that the update has not introduced any unintended side effects.
-
-If the new greeting message is displayed correctly and the application functions as expected, the implementation can be considered successful.
+1. Ensure the Spring Boot application is running.
+2. Open a web browser or use a tool like cURL to send a GET request to the root URL of the application (e.g., http://localhost:8080/).
+3. Verify that the response body contains the updated greeting message "hayabusa".
+4. Test the application's functionality to ensure that the update did not introduce any regressions.
+5. If the application is still functioning correctly and the new greeting message is displayed, the implementation is considered successful.
